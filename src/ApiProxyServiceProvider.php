@@ -52,7 +52,7 @@ class ApiProxyServiceProvider extends ServiceProvider {
      * @return void
      */
     public function registerApiProxy() {
-        $this->app->bindShared('api-proxy.proxy', function($app) {
+        $this->app->singleton('api-proxy.proxy', function($app) {
             $params = $app['config']['proxy'];
             $proxy = new Proxy($params);
             return $proxy;
