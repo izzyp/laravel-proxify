@@ -1,5 +1,5 @@
 {
-	"name": "cellcote/laravel-proxify",
+	"name": "izzyp/laravel-proxify",
 	"description": "A Laravel proxy package for SPA javascript API calls",
 	"keywords": [
 	"laravel",
@@ -17,16 +17,20 @@
 		{
 			"name": "Rik Schreurs",
 			"email": "Rik.schreurs@mail.com"
+		},
+		{
+			"name": "IzzyP"
 		}
+
 	],
 	"require": {
 		"php": ">=5.5.0",
-		"laravel/framework": "5.1 || 5.2",
-		"guzzlehttp/guzzle": "~5.0"
+		"laravel/framework": "5.3.*",
+		"guzzlehttp/guzzle": "~5.*"
 	},
 	"autoload": {
 		"psr-4": {
-			"Cellcote\\LaravelProxify\\":"src"
+			"IzzyP\\LaravelProxify\\":"src"
 		}
 	},
 	"license": "MIT"
