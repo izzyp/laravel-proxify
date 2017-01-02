@@ -30,7 +30,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"IzzyP\\LaravelProxify\\":"src"
+			"Cellcote\\LaravelProxify\\":"src"
 		}
 	},
 	"license": "MIT"
